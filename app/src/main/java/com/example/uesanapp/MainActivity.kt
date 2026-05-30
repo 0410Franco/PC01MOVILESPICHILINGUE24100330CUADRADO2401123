@@ -11,9 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.uesanapp.presentation.auth.LoginScreen
-import com.example.uesanapp.presentation.auth.RegisterScreen
-import com.example.uesanapp.presentation.navigation.AppNavGraph
+import com.example.uesanapp.navigation.AppNavigation
 import com.example.uesanapp.ui.theme.UESANAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             UESANAppTheme {
-                AppNavGraph()
+                AppNavigation()
             }
         }
     }

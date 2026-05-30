@@ -107,14 +107,14 @@ fun BudgetScreen(navController: NavController) {
                     
                     if (days != null && dailyBudget != null && days > 0 && dailyBudget > 0) {
                         val total = days * dailyBudget * factor
-                        totalResult = String.format(Locale.US, "Total estimado: $ %.2f", total)
+                        totalResult = String.format(Locale.US, "Total aproximado: $ %.2f", total)
                     } else {
-                        totalResult = "Por favor, ingrese valores válidos mayores a cero"
+                        totalResult = "Por favor, ingrese valores mayores a cero"
                     }
                 },
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("Calcular Total")
+                Text("Calcular el total")
             }
 
             Spacer(modifier = Modifier.height(24.dp))

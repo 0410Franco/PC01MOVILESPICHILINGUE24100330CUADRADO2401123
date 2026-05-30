@@ -67,12 +67,12 @@ fun DestinationScreen(navController: NavController) {
             ) {
                 Column(modifier = Modifier.padding(16.dp)) {
                     Text(
-                        text = "Resumen del Catálogo",
+                        text = "Resumen de todo el catalogo",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold
                     )
                     Text("Total de destinos: ${destinations.size}")
-                    Text("Costo total acumulado: $ ${String.format(Locale.US, "%.2f", totalCost)}")
+                    Text("Costo acumulado total: $ ${String.format(Locale.US, "%.2f", totalCost)}")
                 }
             }
         }
@@ -113,3 +113,4 @@ fun DestinationCard(destination: Destination) {
         }
     }
 }
+//...

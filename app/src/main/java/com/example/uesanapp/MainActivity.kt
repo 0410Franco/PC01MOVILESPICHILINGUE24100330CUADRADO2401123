@@ -25,5 +25,5 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-//Franco Pichilingue 24100330
-//Jean Cuadrado 24101123
+//Franco Pichilingue 24100330...
+//Jean Cuadrado 24101123...

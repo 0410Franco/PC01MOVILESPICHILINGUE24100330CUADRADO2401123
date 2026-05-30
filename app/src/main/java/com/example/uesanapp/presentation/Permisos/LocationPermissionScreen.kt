@@ -27,9 +27,9 @@ fun LocationPermissionScreen(navController: NavController) {
                     Manifest.permission.ACCESS_FINE_LOCATION
                 ) == PackageManager.PERMISSION_GRANTED
             ) {
-                "Permiso concedido"
+                "Permiso aceptado"
             } else {
-                "Permiso pendiente"
+                "Permiso aún pendiente"
             }
         )
     }

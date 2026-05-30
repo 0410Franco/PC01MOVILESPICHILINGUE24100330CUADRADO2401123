@@ -29,7 +29,7 @@ fun MainMenuScreen(navController: NavController) {
                 onClick = { navController.navigate(Routes.Luggage.route) },
                 modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
             ) {
-                Text("Calculadora de Equipaje")
+                Text("Calculadora para Equipaje")
             }
             Button(
                 onClick = { navController.navigate(Routes.Budget.route) },
